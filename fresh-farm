@@ -1,0 +1,29 @@
+1
+ADD file ... in /
+29.02 MB
+2
+CMD ["bash"]
+0 B
+3
+MAINTAINER leellovely077@gmail.com
+0 B
+4
+/bin/sh -c apt-get update &&
+59.21 MB
+5
+ADD e3da73e00f223be23ebf4c995da2e6e67d1435a9ce19c23616f814515dfbf04f in /var/www/html
+1.72 MB
+6
+WORKDIR /var/www/html
+0 B
+7
+/bin/sh -c unzip farmfresh.zip
+1.7 MB
+8
+/bin/sh -c cp -rvf
+1.7 MB
+9
+CMD ["/bin/sh" "-c" "[
+0 B
+10
+EXPOSE 80
