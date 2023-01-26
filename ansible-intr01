@@ -1,0 +1,56 @@
+# what is an ansible?
+=> ansible is an automation configration tool.
+
+                 #.Advantages of the Ansible:
+
+1.Mass diployment:http/service
+           
+    =>  10 services run with help of ansible without going to another machines and we use ssh.
+    =>  we run and copy files with help of scripts but issues like run and copy files again and again on those 
+        10 machines.
+
+2.Migration test to production;
+      
+   =>  application testig environment test to production migration we can do with ansible.
+
+3.Application failure;
+   
+   =>  ansible used to keep stable application.
+   =>  ansible role back to previous stable.
+
+# How many applications are used in the market for automation?
+=> 1.puppet 2.saltstack 3.chef 4.ansible
+
+# puppit:lang= puppet DSL(domain specify lang)
+  
+  Security; ssl/tls
+
+  Requriments; agent (any software)
+  
+  Code;pull from the software first and then run the machine.
+
+# Chef:lang=rubby/erlang
+
+  security;ssl/tls
+
+  requirements; agent (any software)
+
+  code; pull from the software first then run on the machine.
+
+# Saltstack:lang= yaml(yet another markup language)
+   
+  requirements; agent (any software)
+  
+  code; push to the machine and run.
+
+# Ansible: lang=yaml
+  
+  requirements; agentless (no need any software)
+
+  code; push to the machine directly and run.
+
+* Note:
+      
+ Ansible is the best choice to use for automation technologies,mostly 90% companies used Ansible for automation.
+    
+   
